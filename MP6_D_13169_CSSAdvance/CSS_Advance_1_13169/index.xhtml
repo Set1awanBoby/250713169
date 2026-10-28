@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Lomba</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="mainForm">
+        <h1 class="judulForm">Formulir Pendaftaran Lomba</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <table class="tableForm" cellspacing="0" cellpadding="0" border="0">
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="namatim"><strong>Nama Tim</strong></label>
+                    </td>
+                    <td class="inputCol">
+                        <input type="text" id="namatim" name="namatim" class="inputForm" size="30" />
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="ketua"><strong>Nama Ketua Tim</strong></label>
+                    </td>
+                    <td class="inputCol">
+                        <input type="text" id="ketua" name="ketua" class="inputForm" size="30" />
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="jumlah"><strong>Jumlah Anggota</strong></label>
+                    </td>
+                    <td class="inputCol">
+                        <select id="jumlah" name="jumlah" class="selectForm">
+                            <option>1 Orang</option>
+                            <option>2 Orang</option>
+                            <option>3 Orang</option>
+                            <option>4 Orang</option>
+                            <option>5 Orang</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="telepon"><strong>Nomor Telepon (Perwakilan)</strong></label>
+                    </td>
+                    <td class="inputCol">
+                        <input type="text" id="telepon" name="telepon" class="inputForm" size="30" />
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="universitas">
+                            <strong>Asal Universitas</strong>
+                        </label>
+                    </td>
+                    <td class="inputCol">
+                        <input type="text" id="universitas" name="universitas" class="inputForm" size="30" />
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <strong>Bidang Lomba</strong>
+                    </td>
+                    <td class="inputCol">
+                        <p class="checkbox">
+                            <input type="checkbox" id="coding" name="bidang" value="Coding" />
+                            <label for="coding">Coding</label>
+                            <input type="checkbox" id="desain" name="bidang" value="Desain" />
+                            <label for="desain">Desain</label>
+                        </p>
+                        <p class="checkbox">
+                            <input type="checkbox" id="video" name="bidang" value="Video" />
+                            <label for="video">Video</label>
+                            <input type="checkbox" id="essay" name="bidang" value="Essay" />
+                            <label for="essay">Essay</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <strong>Jenis Peserta</strong>
+                    </td>
+                    <td class="inputCol">
+                        <input type="radio" id="mahasiswa" name="peserta" value="Mahasiswa" />
+                        <label for="mahasiswa">Mahasiswa</label>
+                        <input type="radio" id="umum" name="peserta" value="Umum" />
+                        <label for="umum">Umum</label>
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="deskripsi">
+                            <strong>Deskripsi Karya</strong>
+                        </label>
+                    </td>
+                    <td class="inputCol">
+                        <textarea id="deskripsi" name="deskripsi" class="textareaForm" rows="10" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="alasan">
+                            <strong>Alasan Mengikuti Lomba</strong>
+                        </label>
+                    </td>
+                    <td class="inputCol">
+                        <textarea id="alasan" name="alasan" class="textareaForm" rows="7" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td class="labelCol">
+                        <label for="filekarya"><strong>File Karya</strong></label>
+                    </td>
+                    <td class="inputCol">
+                        <input type="file" id="filekarya" name="filekarya" accept="application/pdf, image/jpeg, image/png" />
+                    </td>
+                </tr>
+                <tr class="rowForm">
+                    <td colspan="2" class="submitForm">
+                        <input type="submit" name="daftar" value="Daftar Lomba" class="inputSubmit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

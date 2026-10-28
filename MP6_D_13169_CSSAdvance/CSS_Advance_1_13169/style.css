@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.mainForm {
+    max-width: 40%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.judulForm {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.tableForm {
+    width: 100%;
+}
+
+.rowForm td {
+    padding: 12px 8px;
+    border-bottom: 1px solid lightgray; 
+}
+
+.labelCol {
+    width: 35%;
+}
+
+.inputCol {
+    width: 65%;
+}
+
+.inputForm,
+.selectForm,
+.textareaForm {
+    width: 80%;
+    padding: 8px 12px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 12px;   
+}
+
+.selectForm:hover {
+    cursor: pointer;
+}
+
+.checkbox {
+    margin: 4px;
+}
+
+.submitForm {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.inputSubmit {
+    background-color: lightblue;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.inputSubmit:hover {
+    background-color: lightskyblue;
+}
+
+#filekarya:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+label, strong {
+    font-size: small;
+    margin-right: 12px;
+}

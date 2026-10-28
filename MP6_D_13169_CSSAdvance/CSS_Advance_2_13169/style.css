@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #eaeaea;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainForm {
+    background: #ffffff;
+    max-width: 750px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.judulForm {
+    text-align: center;
+    font-size: 24px;
+    margin: 8px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.judulTabel {
+    font-size: 16px;
+    color: #3e6b83;
+    background-color: #c6e9ff;
+    padding: 8px 12px;
+    border-left: 4px solid #0090EA;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.mainTabel {
+    width: 100%;
+}
+
+.rowForm td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.labelCol {
+    width: 30%;
+    font-size: 14px;
+    color: #505a6b;
+}
+
+.inputCol {
+    width: 70%;
+}
+
+.selectForm,
+.inputForm{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.selectForm:hover{
+    cursor: pointer;
+}
+
+.radioForm, 
+.checkboxForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.inputCol label {
+    font-size: 14px;
+    cursor: pointer;
+    color: #505a6b;
+}
+
+.fileForm {
+    font-size: 12px;
+    color: #505a6b;
+}
+
+.fileForm:hover {
+    cursor: pointer;
+}
+
+.submitForm {
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.submitInput {
+    background-color: #92cafd;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submitInput:hover {
+    background-color: #0090EA;
+}

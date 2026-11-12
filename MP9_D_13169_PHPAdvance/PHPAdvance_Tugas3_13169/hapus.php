@@ -1,7 +1,7 @@
 <?php
 require 'koneksi.php';
 
-if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $id = $_GET['id'];
 
     if (!ctype_digit($id)) {

@@ -7,7 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
     if (!ctype_digit($id)) {
         echo '<p style="color:red;">!! ID tidak valid. !!</p>';
     } else {
-        // Use ? as the placeholder instead of "$id"
         $stmt = mysqli_prepare($conn, 'DELETE FROM film WHERE id = ?');
         mysqli_stmt_bind_param($stmt, 'i', $id);
         mysqli_stmt_execute($stmt);
